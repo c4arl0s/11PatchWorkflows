@@ -1,8 +1,8 @@
-# 11PatchWorkflowsRysGitTutorial
+# [go back to content](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
 
 11 Patch Workflows RysGit Tutorial
 
-# 11. [Patch Workflows](https://github.com/c4arl0s/RysGitTutorial#11-patch-workflows-1)
+# 11. [Patch Workflows - Content]()
  * [Change the Pink Page (Mary)](https://github.com/c4arl0s/RysGitTutorial#-change-the-pink-page-mary)
  * [Create a Patch](https://github.com/c4arl0s/RysGitTutorial#-create-a-patch)
  * [Add a Pink Block (Mary)](https://github.com/c4arl0s/RysGitTutorial#-add-a-pink-block-mary)
@@ -15,7 +15,7 @@
  * [Quick Reference](https://github.com/c4arl0s/RysGitTutorial#-quick-reference-5)
 
 
-# 11. [Patch Workflows](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 11. [Patch Workflows]()
 
 Thus, far, all of the collaboration workflows we have seen rely heavily on branches. For example, in the last module, a contributor had to publish an entire **branch** for us to merge into our project. However, it is also a possible to communicate directly on the **commit** level using a **patch**.
 
@@ -37,7 +37,7 @@ fatal: remote origin already exists.
 
 Both exist, reverse if needed.
 
-# 	* [Change the Pink Page (Mary)](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Change the Pink Page (Mary)]()
 
 We will begin by pretending to be Mary again. Mary didn't like the pink page that John contributed and wants to change it.
 
@@ -75,7 +75,7 @@ $ git commit -a -m "Change pink to a manly color"
 
 Note that Mary's local development process does not change at all. **Patches** - like the centralized and integrator workflow - are merely a way to share changes amongst developers. It has little effect on the core Git concepts introduced in the first portion of this tutorial.
 
-# 	* [Create a Patch](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Create a Patch]()
 
 Mary can create a patch from the new commit using the **git format-patch** command.
 
@@ -176,7 +176,7 @@ While you don't have to know the ins-add-outs of diffs to make use of patches, y
 
 Delete the patch file for now (we will re-create it later).
 
-# 	* [Add a Pink Block (Mary)](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Add a Pink Block (Mary)]()
 
 Before learning how to turn patches back into commits, Mary will add one more snapshot.
 
@@ -210,7 +210,7 @@ Mary's repository now contains two commits after the tip of master:
 
 ![Screen Shot 2020-06-28 at 8 37 35](https://user-images.githubusercontent.com/24994818/85949161-c1cdce00-b91a-11ea-850c-043ddb0faad5.png)
 
-# 	* [Create Patch of Entire Branch (Mary)](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Create Patch of Entire Branch (Mary)]()
 
 Mary can use the same command as before to generate patches for all commits in her pink-branch.
 
@@ -252,7 +252,7 @@ index c349233..431492b 100644
 This is the same formatting as the first patch, except its lack of - lines indicate that we only added HTML during the second commit. As you can see, this patch is really just a **machine-readable** summary of our actions from the previous section.
 
 
-# 	* [Mail the Patches (Mary)](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Mail the Patches (Mary)]()
 
 Now that Mary has prepared a series of patches, she can send them to the program maintainer (us). In the typical patch workflow, she would send them via email using one of the following methods:
 
@@ -262,7 +262,7 @@ Now that Mary has prepared a series of patches, she can send them to the program
 
 The point is, the **.patch** files need to find their way into the Git repository of whoever wants to add it to their project. For our example, all we need to do is copy the patches into my-git-repo directory that represents our local version of the project.
 
-# 	* [Apply the Patches (you)](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Apply the Patches (you)]()
 
 Copy the two patches files from RysGitTutorialMaryRepository into RysGitTutorialRepository. Using the new **git am** command, we can use these patches to add Mary's commits to our repository.
 
@@ -332,7 +332,7 @@ The **git am** command is configured to read from something called **"Standard i
 
 After applying this patch, our integration branch now looks exactly like Mary's pink-page branch. We applied Mary's patches in the same order she did, but that didn't necessarlily have to be the case. The whole idea begind patches is that **let you isolate a commit and move it around as you please**.
 
-# 	* [Integrate The Patches (you)](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Integrate The Patches (you)]()
 
 Once again, we are in the familiar situation of integrating a topic branch into the stable master branch.
 
@@ -379,7 +379,7 @@ To https://bitbucket.org/C4rl0sS4nt14g0/rysgittutorialrepository.git
 
 Mary's updates are now completely integrated into our local repository, so we ca get rid of the patch files with **git clean**. This was also appropiate time to push changes to the public repository so other developers can access the most up-to-date version of the project.
 
-# 	* [Update Mary's Repository (Mary)](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Update Mary's Repository (Mary)]()
 
 Mary might be tempted to merge her pink-page branch directly into her master branch, but this would be a mistake. Her master branch **must** track the **"official"** repository's master, as discussed in the previous module.
 
@@ -431,7 +431,7 @@ Taking this into consideration, our final patch workflow resembles the following
 
 ![Screen Shot 2020-07-03 at 18 38 37](https://user-images.githubusercontent.com/24994818/86501205-6d807f00-bd5c-11ea-83a9-73fdb2fd21f1.png)
 
-# 	* [Conclusion](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Conclusion]()
 
 Whereas **remote repositories** are a way to share entire **branches**, **patches** are a way to send **individual commits** to another developer. Keep in mind that patches are usually only sent to a project maintainer, who then integrates them into the **"official"** project for all to see. It would be impossible for everyone to communicate using only patches, as no one would be applying them in the same order. Eventually, everyone's project history would look entirely different.
 
@@ -441,7 +441,7 @@ As a programmer,yoy are most likely to use patches **when you want to fix a bug 
 
 This module concludes our discussion of the standard Git workflows. Hopefully you have a good idea of how Git can better manage your personal and professional software projects using a centralized, integrator, or patch workfloow. In then next module, we will switch gears and introduce a variaty of practical Git commands.
 
-# 	* [Quick Reference](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Quick Reference]()
 
 ```console
 $ git format-patch branchName
