@@ -1,17 +1,18 @@
 # [go back to content](https://github.com/c4arl0s/RysGitTutorial#rys-git-tutorial)
 
 # [11 Patch Workflows - Content](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#go-back-to-content)
- * [Change the Pink Page (Mary)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-change-the-pink-page-mary)
- * [Create a Patch](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-create-a-patch)
- * [Add a Pink Block (Mary)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-add-a-pink-block-mary)
- * [Create Patch of Entire Branch (Mary)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-create-patch-of-entire-branch-mary)
- * [Mail the Patches (Mary)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-mail-the-patches-mary)
- * [Apply the Patches (you)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-apply-the-patches-you)
- * [Integrate The Patches (you)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-integrate-the-patches-you)
- * [Update Mary's Repository (Mary)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-update-marys-repository-mary)
- * [Conclusion](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-conclusion)
- * [Quick Reference](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-quick-reference)
 
+1. [x] [1. Change the Pink Page (Mary)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-change-the-pink-page-mary)
+2. [x] [2. Create a Patch](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-create-a-patch)
+3. [x] [3. Add a Pink Block (Mary)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-add-a-pink-block-mary)
+4. [x] [4. Create Patch of Entire Branch (Mary)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-create-patch-of-entire-branch-mary)
+5. [x] [5. Mail the Patches (Mary)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-mail-the-patches-mary)
+6. [x] [6. Apply the Patches (you)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-apply-the-patches-you)
+7. [x] [7. Integrate The Patches (you)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-integrate-the-patches-you)
+8. [x] [8. Update Mary's Repository (Mary)](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-update-marys-repository-mary)
+9. [x] [9. Conclusion](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-conclusion)
+10. [x] [10. Quick Reference](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#-quick-reference)
+ 
 # [11 Patch Workflows](https://github.com/c4arl0s/11PatchWorkflowsRysGitTutorial#11-patch-workflows---content)
 
 Thus, far, all of the collaboration workflows we have seen rely heavily on branches. For example, in the last module, a contributor had to publish an entire branch for us to merge into our project. However, it is also a possible to communicate directly on the commit level using a patch.
